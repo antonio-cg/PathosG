@@ -1,0 +1,22 @@
+extends layout
+
+block Contenido
+    #contenidoNuevaSesion
+        h2 Informacion para nueva sesion de trabajo.
+        form(method='post',action='/nuevo/#{id}') 
+            .separador
+                h3  Id de la sesion: <span id='idSesion' value='#{id}'>#{id}</span>
+            .separador
+                label(for='nombre') Nombre del hoster:
+                input(type='text' name='nombre' placeholder='Ingresa tu nombre' tabindex=1)
+            .separador
+                label(for='empresa') Empresa:
+                input(type='text' name='empresa' placeholder='Empresa o institucion')
+            .separador
+                label(for='noParticipantes') Participantes:
+                input(type='text' name='noParticipantes' placeholder='Ingresa cuantos participaran')
+            .separador
+                label(for='password') Password para el control de la sesion
+                input(type='password' name='passwordSesion' placeholder='Password')
+            .separador
+                input(type='submit', value='Guardar' )

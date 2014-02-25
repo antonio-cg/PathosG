@@ -1,0 +1,15 @@
+extends layout
+    
+block Contenido
+   section#datos
+        h2 Sesion creada 
+        p.
+            tu sesion a sido creada ahora puede entrar a la
+            pantalla principal mediante el siguiente link:
+        .separadorSesion
+            a(href='/#{idSesion}/host') link
+        p. 
+           Si deseas que alguien se una a tu sesion de trabajo
+           puede enviar el siguiente link a tus contactos:
+           <span>http://#{direccion}/#{idSesion}/usuario</span>
+

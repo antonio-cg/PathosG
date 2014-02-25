@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #c40200;
+  border-bottom: 4px solid #fffed2;
+}
+header h1 {
+  padding-top: 50px;
+  padding-left: 50px;
+  color: #fffbe7;
+  font-size: 3em;
+}
+header h2 {
+  color: #fff;
+  padding-left: 50px;
+}
+header ul {
+  text-align: right;
+  padding-bottom: 10px;
+  padding-right: 30px;
+  list-style: none;
+}
+header ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+header ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header ul li a:hover {
+  border-top: 3px solid #fffde2;
+}
+footer {
+  bottom: 0;
+  background-color: #431;
+  position: fixed;
+  heigth: 50px;
+  width: 100%;
+}
+#texto {
+  color: #fff;
+  font-size: 1;
+}
+#texto {
+  display: inline-block;
+  max-width: 40%;
+  color: #fff;
+  font-size: 1em;
+}
+#barraUsuarios {
+  background-color: #6c281b i;
+}
+#botonUnirse {
+  display: block;
+  width: 340px;
+  height: 90px;
+  text-decoration: none;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-color: #008500;
+  color: #fff;
+  margin-top: 150px;
+  font-size: 2em;
+}
+#barraIndex {
+  padding-top: 150px;
+}
+#contenido {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.contenido {
+  max-width: 33%;
+  display: inline-block;
+}
+.contenido h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
